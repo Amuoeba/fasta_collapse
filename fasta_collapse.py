@@ -75,18 +75,14 @@ for ind,seq in enumerate(fasta_lst):
 for i in fasta_lst:
     print(i.fasta_representation())
 
-seen_sets = set()
-collapsed_fasta = []
+
 for ind,seq in enumerate(fasta_lst):
     for seqTwo in fasta_lst[ind+1:]:
         if seq.idList == seqTwo.idList:
             del fasta_lst[ind]
-sum = 0
+
 for seq in fasta_lst:
-    sum += len(seq.idList)
     print(seq.fasta_representation())
     with open("collapsed_fasta.txt","a") as f:
         f.write(seq.fasta_representation())
 
-# print(sum)
-# print(len(fasta_lst))
