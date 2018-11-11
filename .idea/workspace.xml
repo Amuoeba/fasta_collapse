@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5a9d5a3-ebb8-47f4-9ad0-062bfddaa521" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/collapsed_fasta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/collapsed_fasta.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fasta_collapse.py" beforeDir="false" afterPath="$PROJECT_DIR$/fasta_collapse.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,26 +22,26 @@
         <counts>
           <entry key="fasta" value="1" />
           <entry key="py" value="1" />
-          <entry key="txt" value="2" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="py" value="2109" />
+          <entry key="py" value="2110" />
           <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="29" />
-          <entry key="Python" value="2109" />
+          <entry key="Python" value="2110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -50,29 +49,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fasta_collapse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="455">
+              <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
               <folding>
-                <marker date="1541937606697" expanded="true" signature="314:1309" ph="..." />
-                <marker date="1541937606697" expanded="true" signature="989:1146" ph="..." />
-                <marker date="1541937606697" expanded="true" signature="1165:1174" ph="..." />
+                <marker date="1541937905674" expanded="true" signature="314:1309" ph="..." />
+                <marker date="1541937905674" expanded="true" signature="989:1146" ph="..." />
+                <marker date="1541937905674" expanded="true" signature="1165:1174" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/collapsed_fasta.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7050">
+              <caret line="394" column="70" lean-forward="true" selection-start-line="394" selection-start-column="70" selection-end-line="394" selection-end-column="70" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sequence.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="307">
               <caret line="1669" column="77" lean-forward="true" selection-start-line="1669" selection-start-column="77" selection-end-line="1669" selection-end-column="77" />
             </state>
           </provider>
@@ -100,8 +103,8 @@
       <list>
         <option value="$PROJECT_DIR$/filter_fasta.py" />
         <option value="$PROJECT_DIR$/ba.txt" />
-        <option value="$PROJECT_DIR$/fasta_collapse.py" />
         <option value="$PROJECT_DIR$/collapsed_fasta.txt" />
+        <option value="$PROJECT_DIR$/fasta_collapse.py" />
       </list>
     </option>
   </component>
@@ -172,11 +175,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3298647" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3298647" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298647" />
@@ -203,25 +206,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sequence.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="307">
           <caret line="1669" column="77" lean-forward="true" selection-start-line="1669" selection-start-column="77" selection-end-line="1669" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collapsed_fasta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7050">
+          <caret line="394" column="70" lean-forward="true" selection-start-line="394" selection-start-column="70" selection-end-line="394" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fasta_collapse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="455">
+          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
           <folding>
-            <marker date="1541937606697" expanded="true" signature="314:1309" ph="..." />
-            <marker date="1541937606697" expanded="true" signature="989:1146" ph="..." />
-            <marker date="1541937606697" expanded="true" signature="1165:1174" ph="..." />
+            <marker date="1541937905674" expanded="true" signature="314:1309" ph="..." />
+            <marker date="1541937905674" expanded="true" signature="989:1146" ph="..." />
+            <marker date="1541937905674" expanded="true" signature="1165:1174" ph="..." />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collapsed_fasta.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

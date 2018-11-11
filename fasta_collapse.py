@@ -81,6 +81,7 @@ for ind,seq in enumerate(fasta_lst):
         if seq.idList == seqTwo.idList:
             del fasta_lst[ind]
 
+open('collapsed_fasta.txt', 'w').close()
 for seq in fasta_lst:
     print(seq.fasta_representation())
     with open("collapsed_fasta.txt","a") as f:
