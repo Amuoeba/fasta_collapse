@@ -54,6 +54,7 @@ with open("sequence.txt", "r") as f:
 
 
 fasta_lst = []
+
 for l in content:
     if FastaSequence.id_line_reg.findall(l):
         newFasta = FastaSequence(l)
@@ -62,28 +63,35 @@ for l in content:
     else:
         fasta_lst[-1].sequence.append(l)
 
+print(len(fasta_lst))
 
+to_delete = []
 for ind,seq in enumerate(fasta_lst):
-    for seqTwo in fasta_lst[ind+1:]:
+    start_i = ind +1
+    remain_lst = fasta_lst[start_i:]
+    for ind2,seqTwo in enumerate(remain_lst):
         if seq.concat_seq() == seqTwo.concat_seq():
-            seqTwo.idList.add(seq.id)
             seq.idList.add(seqTwo.id)
             seq.idList.add(seq.id)
-            seqTwo.idList.add(seqTwo.id)
+            to_delete.append(start_i+ind2)
         else:
             seq.idList.add(seq.id)
-for i in fasta_lst:
-    print(i.fasta_representation())
 
+for i in to_delete:
+    fasta_lst[i] = None
 
-for ind,seq in enumerate(fasta_lst):
-    for seqTwo in fasta_lst[ind+1:]:
-        if seq.idList == seqTwo.idList:
-            del fasta_lst[ind]
+fasta_lst = [x for x in fasta_lst if x is not None]
+
 
 open('collapsed_fasta.txt', 'w').close()
 for seq in fasta_lst:
-    print(seq.fasta_representation())
     with open("collapsed_fasta.txt","a") as f:
         f.write(seq.fasta_representation())
 
+sum = 0
+for i in fasta_lst:
+    sum += len(i.idList)
+    # print(i.idList)
+
+print(len(fasta_lst))
+print(sum)
